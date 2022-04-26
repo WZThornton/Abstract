@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2
 {
-    internal class Forme
+    abstract class Forme
     {
+        abstract public void Dessiner();
+        abstract public void Colorier();
+        
     }
 }

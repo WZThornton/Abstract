@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2
 {
-    abstract class Triangle :Iforme
+    abstract class Triangle : Iforme
     {
         public void Dessiner()
         { 

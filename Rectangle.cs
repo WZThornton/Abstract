@@ -6,13 +6,15 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2
 {
-    public class Rectangle : Iforme
+    abstract class Rectangle : Forme
     {
 
-        public void Dessiner()
-        {}
+        public override void Dessiner()
+        {
+            
+        }
 
-        public void Colorier()
+        public override void Colorier()
         { }
     }
 }
